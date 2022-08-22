@@ -1,7 +1,30 @@
 import logo from './logo.svg';
+import { useSelector, useDispatch } from 'react-redux';
 import './App.css';
+import styled from 'styled-components';
+
+// const ChangeValueButton = styled.button`
+//   display:  inline-flex;
+
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #61dafb;
+//   font-size: 36px;
+//   border: 0;
+//   border-radius: 50%;
+//   width: 4rem;
+//   height: 4rem;
+//   margin: 1rem;
+// `;
+
+// const ButtonWrapper = styled.div`
+//   margin: 1rem;
+// `;
 
 function App() {
+  // const count = useSelector((state)=> state.counter.value);
+  // const dispatch = useDispatch();
+
   return (
     <div className="App">
       <header className="App-header">
